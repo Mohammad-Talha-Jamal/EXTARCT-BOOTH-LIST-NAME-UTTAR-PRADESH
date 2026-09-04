@@ -31,9 +31,9 @@ Follow these steps to get the tool running on your machine.
 
 Open PowerShell and run:
 
-powershell
 git clone https://github.com/Mohammad-Talha-Jamal/EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH.git
 cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH
+pip install -r requirements.txt
 
 
 > No Git? Download the ZIP from the GitHub page and extract it, then use `cd` to navigate into the extracted folder.
@@ -44,7 +44,6 @@ cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH
 
 This keeps dependencies isolated. Run:
 
-powershell
 python -m venv venv
 .\venv\Scripts\Activate
 
@@ -55,13 +54,12 @@ You’ll see `(venv)` appear at the start of your prompt.
 
 # Step 3: Install required packages
 
-powershell
 pip install -r requirements.txt
 
 
 If a `requirements.txt` file is not present, install the dependencies manually:
 
-powershell
+
 pip install pandas openpyxl selenium webdriver-manager
 
 
@@ -84,7 +82,6 @@ The Excel file must contain these three columns (exact names):
 
 # Step 5: Run the script
 
-powershell
 python extract_all_up_booth_list.py
 
 
@@ -116,7 +113,6 @@ python extract_all_up_booth_list.py
 
 # 📌 Quick one‑liner (if you already have everything set up)
 
-powershell
 git clone https://github.com/Mohammad-Talha-Jamal/EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH.git ; cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH ; pip install -r requirements.txt ; python extract_all_up_booth_list.py
 
 
