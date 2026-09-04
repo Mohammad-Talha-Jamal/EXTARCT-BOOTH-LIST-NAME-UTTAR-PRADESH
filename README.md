@@ -31,6 +31,8 @@ Follow these steps to get the tool running on your machine.
 
 Open PowerShell and run:
 
+bash
+
 git clone https://github.com/Mohammad-Talha-Jamal/EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH.git
 cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH
 pip install -r requirements.txt
