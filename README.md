@@ -1,6 +1,6 @@
 # ECI Booth List Extractor (Uttar Pradesh)
 
-Automated extraction of part-wise voter roll data from the **Election Commission of India** website  
+Automated extraction of part-wise Booth List data from the **Election Commission of India** website  
 (`https://voters.eci.gov.in/download-eroll`) for all Assembly Constituencies in Uttar Pradesh (2026 Final Roll).
 
 ## Features
@@ -19,6 +19,4 @@ Automated extraction of part-wise voter roll data from the **Election Commission
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/eci-voter-roll-extractor.git
-cd eci-voter-roll-extractor
-pip install -r requirements.txt
+
