@@ -118,5 +118,22 @@ python extract_all_up_booth_list.py
 git clone https://github.com/Mohammad-Talha-Jamal/EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH.git ; cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH ; pip install -r requirements.txt ; python extract_all_up_booth_list.py
 
 ```
+If users are on macOS/Linux, they need to use:
 
+bash
+# Clone and install (same for all)
+```
+git clone https://github.com/Mohammad-Talha-Jamal/EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH.git
+cd EXTARCT-BOOTH-LIST-NAME-UTTAR-PRADESH
+pip3 install -r requirements.txt
 
+# Virtual environment activation (DIFFERENT)
+# Windows:
+.\venv\Scripts\Activate
+
+# macOS / Linux:
+source venv/bin/activate
+
+# Run script (same for all)
+python3 extract_all_up_booth_list.py
+```
